@@ -1,0 +1,16 @@
+# Ignore node_modules directory
+node_modules/
+zoom_app/node_modules/
+frontend/.next/
+frontend/node_modules/
+
+
+# Ignore .env file in the root directory
+.env
+
+# Ignore .env files in specific folders
+zoom-app/.env
+frontend/.env
+
+# You can also ignore other .env files if they exist in different folders
+**/.env
